@@ -163,36 +163,6 @@ EasyTranslater 针对 PDF 文献中的复杂内容进行处理。
 
 ---
 
-# 🌍 多语言翻译
-
-EasyTranslater 支持通过所使用的翻译服务进行多语言翻译。
-
-<!-- TODO：填写实际支持的语言 -->
-
-例如：
-
-```text
-English
-   ↓
-中文
-
-日本語
-   ↓
-中文
-
-한국어
-   ↓
-中文
-
-Deutsch
-   ↓
-中文
-```
-
-具体可用语言取决于所使用的翻译服务。
-
----
-
 # 🔌 Zotero 深度结合
 
 EasyTranslater 的使用场景并不是独立的 PDF 翻译软件，而是围绕 **Zotero 文献管理工作流**进行设计。
@@ -222,35 +192,6 @@ EasyTranslater
 之间不断切换的操作。
 
 ---
-
-# ⚡ 使用方法
-
-## ① 安装 EasyTranslater
-
-<!-- TODO：填写具体安装方法 -->
-
-例如：
-
-```text
-Zotero
-  ↓
-工具
-  ↓
-附加组件
-  ↓
-设置
-  ↓
-从文件安装插件
-  ↓
-选择 EasyTranslater.xpi
-```
-
-安装完成后：
-
-<!-- TODO：填写是否需要重启 Zotero -->
-
----
-
 ## ② 选择需要翻译的 PDF
 
 在 Zotero 中选择需要翻译的 PDF 文献。
@@ -389,65 +330,6 @@ EasyTranslater 会尽可能保持原文结构，但无法保证每一个字符�
 * 当前服务负载
 
 等因素影响。
-
----
-
-# ❓ 常见问题
-
-<details>
-<summary><b>EasyTranslater 是免费的吗？</b></summary>
-
-<!-- TODO：填写收费模式 -->
-
-</details>
-
-<details>
-<summary><b>需要自己提供 API Key 吗？</b></summary>
-
-<!-- TODO：填写实际情况 -->
-
-</details>
-
-<details>
-<summary><b>支持 Zotero 6 吗？</b></summary>
-
-<!-- TODO：填写实际支持版本 -->
-
-</details>
-
-<details>
-<summary><b>支持扫描版 PDF 吗？</b></summary>
-
-<!-- TODO：填写实际情况 -->
-
-</details>
-
-<details>
-<summary><b>翻译后的 PDF 保存在哪里？</b></summary>
-
-<!-- TODO：填写实际保存位置 -->
-
-</details>
-
-<details>
-<summary><b>为什么翻译速度比较慢？</b></summary>
-
-PDF 全文翻译除了需要进行文字翻译，还需要完成 PDF 解析、内容处理以及翻译版 PDF 的重新生成。
-
-因此，处理速度通常会比普通文本翻译慢。
-
-</details>
-
-<details>
-<summary><b>翻译结果可以直接用于论文发表吗？</b></summary>
-
-不建议。
-
-EasyTranslater 更适合作为**文献阅读与理解的辅助工具**。
-
-对于正式发表、出版以及其他专业用途，建议对翻译结果进行人工校对。
-
-</details>
 
 ---
 
