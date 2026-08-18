@@ -15,7 +15,8 @@
 
 <br>
 
-<!-- TODO：替换为你的产品主截图 -->
+<img width="48" height="48" alt="favicon" src="https://github.com/user-attachments/assets/8a06067e-3eff-4938-92a5-d0fbbbfaac44" />
+
 
 <img src="docs/images/preview.png" width="90%" alt="EasyTranslater">
 
