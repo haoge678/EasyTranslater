@@ -113,10 +113,9 @@ EasyTranslater 会在翻译过程中对这些内容进行处理，并尽可能�
 
 <div align="center">
 
-<img src=<img width="3814" height="2062" alt="4e234c63924674ea7553a3a07d48a4e4" src="https://github.com/user-attachments/assets/135a4d49-afae-44c1-bd2c-9933fca0a9fa" /> alt="原文与译文对比">
+<img width="95%" alt="原文与译文对比" src="https://github.com/user-attachments/assets/135a4d49-afae-44c1-bd2c-9933fca0a9fa" />
 
 </div>
-
 > **目标不是只得到一段译文，而是尽可能得到一份可以直接阅读的翻译版 PDF。**
 
 ---
