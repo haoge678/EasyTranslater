@@ -113,7 +113,7 @@ EasyTranslater 会在翻译过程中对这些内容进行处理，并尽可能�
 
 <div align="center">
 
-<!-- TODO：放一张原文 / 译文对比图 -->
+<!-- TODO：<img width="3814" height="2062" alt="4e234c63924674ea7553a3a07d48a4e4" src="https://github.com/user-attachments/assets/1b5b23ee-0df1-407c-a130-2d2adea41238" />-->
 
 <img src="docs/images/compare.png" width="95%" alt="原文与译文对比">
 
