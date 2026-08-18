@@ -19,14 +19,6 @@
 
 <br><br>
 
-<!-- TODO：填写实际链接 -->
-
-<a href="YOUR_DOWNLOAD_URL">📥 获取插件</a>
-  ·   <a href="YOUR_DOCUMENTATION_URL">📖 使用说明</a>
-  ·   <a href="YOUR_ISSUE_URL">💬 问题反馈</a>
-
-</div>
-
 ---
 
 ## ✨ EasyTranslater 是什么？
