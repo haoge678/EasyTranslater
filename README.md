@@ -2,24 +2,30 @@
 
 # 📚 EasyTranslater
 
-### 🚀 Zotero 全文翻译插件
+### Zotero 全文翻译插件
 
-**让文献阅读更简单，让语言不再成为科研阅读的障碍。**
-
-<p>
-  <img src="https://img.shields.io/badge/Zotero-Plugin-blue?style=flat-square&logo=zotero" alt="Zotero Plugin">
-  <img src="https://img.shields.io/badge/PDF-Full%20Translation-orange?style=flat-square" alt="PDF Translation">
-  <img src="https://img.shields.io/github/license/haoge678/EasyTranslater?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/stars/haoge678/EasyTranslater?style=flat-square" alt="Stars">
-</p>
+**让英文文献阅读更简单**
 
 <p>
-  <a href="#-功能特点">功能特点</a> ·
-  <a href="#-全文翻译">全文翻译</a> ·
-  <a href="#-使用方法">使用方法</a> ·
-  <a href="#-安装">安装</a> ·
-  <a href="#-常见问题">常见问题</a>
+  <b>PDF 全文翻译</b> ·
+  <b>排版保留</b> ·
+  <b>公式保留</b> ·
+  <b>Zotero 集成</b>
 </p>
+
+<br>
+
+<!-- TODO：替换为你的产品主截图 -->
+
+<img src="docs/images/preview.png" width="90%" alt="EasyTranslater">
+
+<br><br>
+
+<!-- TODO：填写实际链接 -->
+
+<a href="YOUR_DOWNLOAD_URL">📥 获取插件</a>
+  ·   <a href="YOUR_DOCUMENTATION_URL">📖 使用说明</a>
+  ·   <a href="YOUR_ISSUE_URL">💬 问题反馈</a>
 
 </div>
 
@@ -27,29 +33,13 @@
 
 ## ✨ EasyTranslater 是什么？
 
-**EasyTranslater** 是一款面向 Zotero 用户的全文翻译插件。
+**EasyTranslater** 是一款专为 **Zotero** 打造的 PDF 全文翻译插件。
 
-它可以直接对 Zotero 中的 PDF 文献进行全文翻译，将原始 PDF 中的文字内容转换为目标语言，并尽可能保留原文的**页面结构、段落布局、公式、图片以及整体排版**。
+无需在 Zotero、PDF 阅读器和翻译工具之间反复切换，只需要选择需要翻译的 PDF，即可对整篇文献进行翻译。
 
-无需反复复制粘贴文本，也无需离开 Zotero 使用其他翻译工具。
+EasyTranslater 不只是简单地提取 PDF 中的文字进行翻译，而是针对 **PDF 文档结构、页面布局、公式、图片等内容**进行处理，并尽可能保留原文的阅读体验。
 
-> **打开文献 → 一键翻译 → 直接阅读**
-
----
-
-## 🎯 为什么选择 EasyTranslater？
-
-科研阅读中，经常会遇到这样的情况：
-
-* 📄 PDF 文献篇幅很长，逐段复制翻译效率低
-* 🌐 英文文献阅读困难，需要频繁切换翻译工具
-* 📐 PDF 中存在公式、图片、表格等复杂内容
-* 📝 普通文本翻译无法很好地还原 PDF 原始布局
-* 🔄 翻译完成后还需要重新整理和排版
-
-**EasyTranslater 希望解决的，就是这些问题。**
-
-它不是简单的“复制文字 → 翻译”，而是围绕 **PDF 全文翻译** 这一场景进行设计。
+> **打开文献 → 一键翻译 → 阅读译文**
 
 ---
 
@@ -57,172 +47,189 @@
 
 <div align="center">
 
-|        功能        | 说明                 |
-| :--------------: | :----------------- |
-|  📖 **PDF 全文翻译** | 一次处理整篇 PDF 文献      |
-|   🎨 **保留原文排版**  | 尽可能保持原 PDF 页面结构    |
-|    🧮 **公式保留**   | 尽可能保留论文中的数学公式      |
-|   🖼️ **图片保留**   | 翻译过程中保留原文图片内容      |
-|   📑 **段落结构保持**  | 尽可能维持原始段落与页面布局     |
-|    ⚡ **批量处理**    | 减少重复的复制、粘贴操作       |
-| 🔌 **Zotero 集成** | 直接围绕 Zotero 文献进行处理 |
-|   🌍 **多语言翻译**   | 根据所使用的翻译服务支持不同语言   |
+|   📖 全文翻译  |  🎨 排版保留  |  🧮 公式处理  |
+| :--------: | :-------: | :-------: |
+| 一次翻译整篇 PDF | 尽可能保持原文布局 | 尽可能保留论文公式 |
+
+| 🖼️ 图片保留 |  📑 表格处理  |  🔌 Zotero 集成  |
+| :------: | :-------: | :------------: |
+|  保留原文图片  | 尽可能保持表格结构 | 直接在 Zotero 中使用 |
 
 </div>
 
----
-
-# 📖 全文翻译
-
-## 一键处理 PDF 文献
-
-EasyTranslater 的核心功能是 **PDF 全文翻译**。
-
-选择 Zotero 中需要处理的 PDF，即可对整篇文献进行翻译。
-
-<div align="center">
-
-<img src="docs/images/full-translation.png" width="90%" alt="EasyTranslater PDF 全文翻译">
-
-</div>
+<!-- TODO：
+根据插件实际能力修改上面的功能。
+如果某项功能并不支持，请删除。
+-->
 
 ---
 
-## 🎨 尽可能保留原文格式
+# 📖 PDF 全文翻译
 
-不同于只提取文字进行翻译的工具，EasyTranslater 会对 PDF 内容进行处理，并尝试恢复翻译后的页面结构。
+## 一篇论文，一次完成
 
-例如：
+面对几十页甚至上百页的英文论文，逐段复制、粘贴、翻译不仅效率低，而且容易破坏原有的阅读结构。
 
-* 标题层级
-* 段落结构
-* 双栏布局
+EasyTranslater 将整个 PDF 作为一个完整的文献进行处理。
+
+```text
+        原始 PDF
+           │
+           ▼
+      PDF 内容解析
+           │
+           ▼
+   文本 / 公式 / 图片 / 布局
+           │
+           ▼
+        翻译处理
+           │
+           ▼
+      PDF 页面重建
+           │
+           ▼
+        翻译版 PDF
+```
+
+### 你不需要：
+
+* ❌ 复制一段翻译一段
+* ❌ 在多个软件之间来回切换
+* ❌ 手动重新排版
+* ❌ 将翻译内容重新整理成 PDF
+
+### 只需要：
+
+**选择 PDF → 开始翻译 → 等待完成 → 阅读译文**
+
+---
+
+# 🎨 尽可能保留原文排版
+
+PDF 全文翻译最大的难点，并不只是“翻译”。
+
+不同于普通文本翻译，PDF 还包含：
+
+* 页面布局
+* 段落位置
+* 多栏排版
 * 图片
 * 表格
 * 数学公式
 * 页眉页脚
-* 页面位置
+* 字体与字号
+
+EasyTranslater 会在翻译过程中对这些内容进行处理，并尽可能恢复原始页面结构。
 
 <div align="center">
 
-<img src="docs/images/compare.png" width="90%" alt="原文与翻译结果对比">
+<!-- TODO：放一张原文 / 译文对比图 -->
+
+<img src="docs/images/compare.png" width="95%" alt="原文与译文对比">
 
 </div>
 
-> **目标不是单纯得到一份译文，而是得到一份可以继续阅读的翻译版 PDF。**
+> **目标不是只得到一段译文，而是尽可能得到一份可以直接阅读的翻译版 PDF。**
 
 ---
 
-# 🧠 翻译流程
+# 🧮 公式、图片与复杂内容
 
-EasyTranslater 的全文翻译并不是简单地将 PDF 文字直接发送给翻译服务。
+科研论文通常不仅包含普通文本，还包含大量公式、图片和表格。
 
-大致流程如下：
+EasyTranslater 针对 PDF 文献中的复杂内容进行处理。
+
+<div align="center">
+
+<!-- TODO：这里建议放 3 张小图 -->
+
+<!-- 公式 / 图片 / 表格 -->
+
+| 🧮 公式 | 🖼️ 图片 | 📊 表格 |
+| :---: | :----: | :---: |
+|  公式处理 |  图片保留  |  表格处理 |
+
+</div>
+
+<!-- TODO：
+这里需要根据你的实际效果补充：
+1. 公式是否完全保留
+2. 图片是否保留
+3. 图片中的文字是否翻译
+4. 表格是否保留
+5. 双栏 PDF 是否支持
+6. 页眉页脚是否保留
+-->
+
+---
+
+# 🌍 多语言翻译
+
+EasyTranslater 支持通过所使用的翻译服务进行多语言翻译。
+
+<!-- TODO：填写实际支持的语言 -->
+
+例如：
 
 ```text
-┌──────────────┐
-│  Zotero PDF  │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│  PDF 内容解析 │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ 文本 / 公式 / │
-│ 图片 / 布局分析│
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   翻译处理    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ PDF 页面重建  │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   翻译版 PDF  │
-└──────────────┘
+English
+   ↓
+中文
+
+日本語
+   ↓
+中文
+
+한국어
+   ↓
+中文
+
+Deutsch
+   ↓
+中文
 ```
 
-因此，**PDF 全文翻译的处理时间通常会明显高于普通文本翻译**。
-
-这是因为除了翻译本身，还涉及 PDF 解析、内容处理、公式处理以及页面重新生成等步骤。
+具体可用语言取决于所使用的翻译服务。
 
 ---
 
-# 🛠️ 使用方法
+# 🔌 Zotero 深度结合
 
-## 1. 在 Zotero 中选择 PDF
+EasyTranslater 的使用场景并不是独立的 PDF 翻译软件，而是围绕 **Zotero 文献管理工作流**进行设计。
 
-首先在 Zotero 中找到需要翻译的 PDF 文献。
+你可以直接从 Zotero 中选择需要处理的 PDF。
 
-<div align="center">
+```text
+Zotero 文献库
+      │
+      ▼
+选择 PDF
+      │
+      ▼
+EasyTranslater
+      │
+      ▼
+全文翻译
+      │
+      ▼
+翻译版 PDF
+```
 
-<img src="docs/images/step-1.png" width="85%" alt="选择 PDF">
+这样可以减少：
 
-</div>
+**文献管理 → 打开 PDF → 复制文本 → 翻译 → 保存文件 → 回到 Zotero**
 
----
-
-## 2. 启动 EasyTranslater
-
-通过 EasyTranslater 提供的功能入口启动全文翻译。
-
-<div align="center">
-
-<img src="docs/images/step-2.png" width="85%" alt="启动全文翻译">
-
-</div>
-
----
-
-## 3. 选择翻译配置
-
-根据实际需求选择相应的翻译服务及目标语言。
-
-<div align="center">
-
-<img src="docs/images/step-3.png" width="85%" alt="翻译配置">
-
-</div>
+之间不断切换的操作。
 
 ---
 
-## 4. 等待翻译完成
+# ⚡ 使用方法
 
-PDF 全文翻译涉及多个处理步骤。
+## ① 安装 EasyTranslater
 
-对于篇幅较长、排版复杂或包含大量公式和图片的论文，处理时间可能会更长。
+<!-- TODO：填写具体安装方法 -->
 
-<div align="center">
-
-<img src="docs/images/step-4.png" width="85%" alt="翻译处理中">
-
-</div>
-
----
-
-## 5. 阅读翻译后的 PDF
-
-翻译完成后即可查看生成的翻译版 PDF。
-
-<div align="center">
-
-<img src="docs/images/result.png" width="90%" alt="翻译结果">
-
-</div>
-
----
-
-# 📦 安装
-
-> 以下内容可根据项目实际发布方式进行调整。
-
-## 方式一：安装插件
-
-下载最新版本的 EasyTranslater 插件文件，并按照 Zotero 插件安装方式进行安装。
+例如：
 
 ```text
 Zotero
@@ -235,206 +242,316 @@ Zotero
   ↓
 从文件安装插件
   ↓
-选择 EasyTranslater 插件文件
+选择 EasyTranslater.xpi
 ```
 
-安装完成后重启 Zotero。
+安装完成后：
+
+<!-- TODO：填写是否需要重启 Zotero -->
 
 ---
 
-## 方式二：从源码运行
+## ② 选择需要翻译的 PDF
 
-```bash
-git clone https://github.com/haoge678/EasyTranslater.git
+在 Zotero 中选择需要翻译的 PDF 文献。
 
-cd EasyTranslater
-```
+<div align="center">
 
-然后按照项目源码中的环境要求进行配置。
+<!-- TODO -->
 
----
+<img src="docs/images/step-1.png" width="85%" alt="选择 PDF">
 
-# 🌍 翻译服务
-
-EasyTranslater 本身主要负责：
-
-**PDF 解析 → 内容处理 → 翻译调用 → PDF 重建**
-
-实际翻译效果和速度会受到所使用的翻译服务、模型、网络环境以及 PDF 本身复杂程度影响。
-
-不同翻译服务之间可能存在：
-
-* 翻译质量差异
-* 翻译速度差异
-* 上下文理解能力差异
-* 专业术语处理差异
-* 使用额度或费用差异
-
-因此：
-
-> **EasyTranslater 不对第三方翻译服务的最终翻译质量作绝对保证。**
-
-对于论文发表、医学、法律、专利等专业场景，建议将机器翻译结果作为**辅助阅读工具**，重要内容仍应结合原文进行核对。
+</div>
 
 ---
 
-# 📊 适合哪些人？
+## ③ 设置翻译参数
 
-EasyTranslater 更适合以下用户：
+<!-- TODO：放置你的配置界面截图 -->
 
-### 🎓 学生
+<div align="center">
 
-阅读英文论文、毕业论文、课程资料。
+<img src="docs/images/step-2.png" width="85%" alt="翻译设置">
 
-### 🔬 科研人员
+</div>
 
-快速浏览英文研究论文，降低语言阅读成本。
+根据实际情况选择：
 
-### 📚 文献阅读者
+* 翻译服务
+* 源语言
+* 目标语言
+* 其他翻译参数
 
-面对大量英文 PDF 时，提高初步阅读效率。
-
-### 💻 Zotero 用户
-
-希望直接在 Zotero 工作流中完成 PDF 翻译，而不是频繁切换软件。
+<!-- TODO：填写实际配置项目 -->
 
 ---
 
-# 💡 使用建议
+## ④ 开始全文翻译
 
-### 长文献建议分批处理
+启动全文翻译后，EasyTranslater 会依次完成 PDF 解析、内容处理、翻译以及 PDF 生成。
 
-对于几十页甚至上百页的论文，建议根据实际情况进行处理。
+<div align="center">
 
-### 复杂 PDF 可能需要更长时间
+<!-- TODO -->
 
-扫描版 PDF、复杂双栏排版、大量公式、复杂表格等内容都会增加处理难度。
+<img src="docs/images/step-3.png" width="85%" alt="全文翻译">
 
-### 翻译结果建议作为辅助
+</div>
 
-机器翻译并不能完全替代人工翻译。
+---
 
-尤其是：
+## ⑤ 查看翻译结果
 
-* 专业术语
-* 数学推导
+翻译完成后即可查看生成的 PDF。
+
+<div align="center">
+
+<img src="docs/images/result.png" width="90%" alt="翻译结果">
+
+</div>
+
+<!-- TODO：说明翻译后的 PDF 保存在哪里 -->
+
+---
+
+# 🧩 支持的翻译服务
+
+EasyTranslater 本身负责 PDF 的解析、内容处理以及翻译流程。
+
+实际翻译能力取决于所使用的翻译服务。
+
+<div align="center">
+
+|      翻译服务     |  支持 |
+| :-----------: | :-: |
+| <!-- TODO --> |  ✅  |
+| <!-- TODO --> |  ✅  |
+| <!-- TODO --> |  ✅  |
+| <!-- TODO --> |  ✅  |
+
+</div>
+
+<!-- TODO：
+填写实际支持的服务。
+例如：
+OpenAI / Gemini / DeepL / Google / 百度 / 腾讯 / 自建 API 等。
+-->
+
+如果翻译服务需要 API Key，用户需要按照对应服务的要求完成配置。
+
+<!-- TODO：说明 API Key 是用户自行提供，还是插件提供 -->
+
+---
+
+# 📦 系统要求
+
+| 项目      | 要求                          |
+| ------- | --------------------------- |
+| Zotero  | <!-- TODO：例如 Zotero 7.x --> |
+| Windows | <!-- TODO -->               |
+| macOS   | <!-- TODO -->               |
+| Linux   | <!-- TODO -->               |
+| 网络      | <!-- TODO -->               |
+| API     | <!-- TODO -->               |
+
+---
+
+# 📄 PDF 支持情况
+
+| PDF 类型   |      支持情况     |
+| -------- | :-----------: |
+| 普通文本 PDF |       ✅       |
+| 双栏论文     | <!-- TODO --> |
+| 包含公式的论文  | <!-- TODO --> |
+| 包含图片的论文  | <!-- TODO --> |
+| 包含表格的论文  | <!-- TODO --> |
+| 扫描版 PDF  | <!-- TODO --> |
+| OCR PDF  | <!-- TODO --> |
+
+<!-- TODO：
+这一部分非常重要，请根据实际测试结果填写。
+-->
+
+---
+
+# 📚 翻译结果说明
+
+需要说明的是，**PDF 全文翻译并不是简单的文本翻译。**
+
+完整流程通常包含：
+
+> PDF 解析 → 内容识别 → 文本翻译 → 版面处理 → PDF 重建
+
+因此，文献的页数、排版复杂程度、公式数量、图片数量以及翻译服务的响应速度，都可能影响最终处理时间。
+
+### 为什么全文翻译比普通文本翻译慢？
+
+因为除了翻译文字，还需要处理：
+
+* PDF 页面结构
+* 文本位置
+* 公式
+* 图片
+* 表格
+* 页面重新生成
+
+因此，对于几十页甚至上百页的论文，**等待一定时间属于正常情况**。
+
+---
+
+# ⚠️ 使用说明
+
+### 1. 翻译结果仅供参考
+
+机器翻译无法完全替代人工翻译。
+
+对于以下内容：
+
+* 医学论文
+* 法律文献
+* 专利
 * 实验方法
-* 法律条款
-* 医学内容
-* 论文结论
+* 数学推导
+* 专业术语
 
-建议结合原文进行确认。
+建议结合原文进行核对。
+
+### 2. 不保证 100% 还原原始排版
+
+不同语言的文字长度、字体以及 PDF 本身的结构都会影响最终排版。
+
+EasyTranslater 会尽可能保持原文结构，但无法保证每一个字符的位置与原 PDF 完全一致。
+
+### 3. 翻译速度取决于多个因素
+
+处理速度可能受到：
+
+* PDF 页数
+* PDF 复杂程度
+* 网络环境
+* 翻译服务
+* API 响应速度
+* 当前服务负载
+
+等因素影响。
 
 ---
 
 # ❓ 常见问题
 
 <details>
-<summary><b>为什么 PDF 全文翻译需要较长时间？</b></summary>
+<summary><b>EasyTranslater 是免费的吗？</b></summary>
 
-PDF 全文翻译不是单纯的文本翻译。
-
-在翻译过程中，还需要进行 PDF 解析、文本提取、公式及图片处理、页面布局恢复以及最终 PDF 生成，因此处理时间通常会比普通文本翻译更长。
+<!-- TODO：填写收费模式 -->
 
 </details>
 
 <details>
-<summary><b>为什么翻译后的排版和原文不可能 100% 一致？</b></summary>
+<summary><b>需要自己提供 API Key 吗？</b></summary>
 
-PDF 本身属于固定页面格式，而不同语言的文字长度、字体以及字符宽度都可能存在差异。
-
-因此，在翻译后重新生成 PDF 时，很难保证每一个字符都与原文保持完全相同的位置。
-
-EasyTranslater 的目标是**尽可能保持原文结构和视觉布局**。
+<!-- TODO：填写实际情况 -->
 
 </details>
 
 <details>
-<summary><b>公式会不会被翻译？</b></summary>
+<summary><b>支持 Zotero 6 吗？</b></summary>
 
-EasyTranslater 会尽可能识别并保留论文中的数学公式。
-
-实际效果取决于 PDF 本身的结构以及公式复杂程度。
+<!-- TODO：填写实际支持版本 -->
 
 </details>
 
 <details>
-<summary><b>扫描版 PDF 可以翻译吗？</b></summary>
+<summary><b>支持扫描版 PDF 吗？</b></summary>
 
-扫描版 PDF 通常需要先进行 OCR 才能获得可翻译的文本。
-
-具体支持情况取决于当前版本以及 PDF 本身的内容结构。
+<!-- TODO：填写实际情况 -->
 
 </details>
 
 <details>
-<summary><b>翻译速度为什么比较慢？</b></summary>
+<summary><b>翻译后的 PDF 保存在哪里？</b></summary>
 
-全文翻译需要经过 PDF 解析、内容处理、翻译以及 PDF 重建等多个步骤。
+<!-- TODO：填写实际保存位置 -->
 
-因此：
+</details>
 
-**PDF 越复杂、页数越多 → 通常处理时间越长。**
+<details>
+<summary><b>为什么翻译速度比较慢？</b></summary>
 
-这属于全文 PDF 翻译本身的处理特点。
+PDF 全文翻译除了需要进行文字翻译，还需要完成 PDF 解析、内容处理以及翻译版 PDF 的重新生成。
+
+因此，处理速度通常会比普通文本翻译慢。
+
+</details>
+
+<details>
+<summary><b>翻译结果可以直接用于论文发表吗？</b></summary>
+
+不建议。
+
+EasyTranslater 更适合作为**文献阅读与理解的辅助工具**。
+
+对于正式发表、出版以及其他专业用途，建议对翻译结果进行人工校对。
 
 </details>
 
 ---
 
-# 🗺️ Roadmap
+# 🔒 关于 EasyTranslater
 
-* [ ] 更完善的 PDF 排版恢复
-* [ ] 更好的公式处理
-* [ ] 更好的表格处理
-* [ ] 更多翻译服务支持
-* [ ] 更完善的错误处理
-* [ ] 批量文献翻译
-* [ ] 更多 Zotero 工作流支持
+**EasyTranslater 是闭源软件。**
 
----
+本 GitHub 仓库主要用于：
 
-# 🤝 贡献
+* 📖 项目介绍
+* 📦 版本发布
+* 📝 使用说明
+* 🐛 问题反馈
+* 💬 用户交流
 
-欢迎提交：
+**本仓库不提供 EasyTranslater 的源代码。**
 
-* 🐛 Bug
-* 💡 Feature Request
-* 🔧 Pull Request
-* 📖 使用建议
-
-如果你在使用过程中遇到问题，也欢迎通过 GitHub Issues 反馈。
+未经授权，请勿对插件进行反编译、修改、重新打包或传播。
 
 ---
 
-# ⭐ 支持项目
+# 💬 问题反馈
 
-如果 EasyTranslater 对你的论文阅读、文献翻译有所帮助：
+如果在使用过程中遇到问题，可以通过 GitHub Issues 反馈。
 
-<div align="center">
+反馈时建议提供：
 
-### ⭐ 给项目点一个 Star
+```text
+1. Zotero 版本
+2. 操作系统
+3. EasyTranslater 版本
+4. 使用的翻译服务
+5. PDF 类型
+6. 问题描述
+7. 错误截图 / 日志
+```
 
-你的 Star 是对项目持续维护最大的鼓励 ❤️
+这样可以帮助更快定位问题。
 
-</div>
-
----
-
-# 📄 License
-
-本项目遵循项目仓库中声明的 License。
-
-使用 EasyTranslater 时，请遵守相关第三方翻译服务的使用条款以及当地法律法规。
+<!-- TODO：如果你有 QQ 群 / Telegram / 邮箱 / 微信公众号等，也可以放在这里 -->
 
 ---
 
 <div align="center">
 
-## EasyTranslater
+# 📚 EasyTranslater
 
-**Make academic reading easier.**
+### Zotero · PDF · 全文翻译
 
-Made with ❤️ for Zotero users.
+**让文献阅读更简单**
+
+<br>
+
+⭐ 如果 EasyTranslater 帮助你更高效地阅读文献，欢迎支持项目。
+
+<br><br>
+
+<!-- TODO：填写最终下载 / 购买 / 官网链接 -->
+
+**[📥 获取 EasyTranslater](YOUR_DOWNLOAD_URL)**
 
 </div>
